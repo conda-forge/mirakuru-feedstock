@@ -1,5 +1,5 @@
 {% set name = "mirakuru" %}
-{% set version = "2.5.2" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mirakuru-{{ version }}.tar.gz
-  sha256: 41ca583d355eb7a6cfdc21c1aea549979d685c27b57239b88725434f115a7132
+  sha256: 3256fcf81ef090a30be97a8ce50ff0c178292d7e542866c5fedc5ae6801e3a17
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
