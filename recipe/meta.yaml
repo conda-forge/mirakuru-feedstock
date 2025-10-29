@@ -1,5 +1,5 @@
 {% set name = "mirakuru" %}
-{% set version = "2.6.1" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mirakuru-{{ version }}.tar.gz
-  sha256: 95d4f5a5ad406a625e9ca418f20f8e09386a35dad1ea30fd9073e0ae93f712c7
+  sha256: 8621706f40bd12182a6d785005be64d72ed355390f1d0701ce8f745ee47a10a5
 
 build:
   noarch: python
