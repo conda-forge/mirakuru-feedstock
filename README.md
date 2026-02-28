@@ -3,7 +3,7 @@ About mirakuru-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mirakuru-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/ClearcodeHQ/mirakuru
+Home: https://github.com/dbfixtures/mirakuru
 
 Package license: LGPL-3.0-or-later
 
