@@ -32,7 +32,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/ClearcodeHQ/mirakuru
+  home: https://github.com/dbfixtures/mirakuru
   summary: Process executor (not only) for tests.
   license: LGPL-3.0-or-later
   license_file: LICENSE
